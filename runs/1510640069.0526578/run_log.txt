@@ -1,0 +1,51 @@
+/home/pato/anaconda2/envs/carnd-advdl-odlab/bin/python /mnt/e4/pato/Projects/HomeMac/Udacity/SDCE/Term3/Project-Semantic_Segmentation/CarND-Semantic-Segmentation/main.py
+TensorFlow Version: 1.2.0
+2017-11-14 01:03:42.160703: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-14 01:03:42.160715: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-14 01:03:42.160718: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-14 01:03:42.160720: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-14 01:03:42.160722: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-11-14 01:03:42.260088: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-11-14 01:03:42.260310: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties:
+name: GeForce GTX 1080 Ti
+major: 6 minor: 1 memoryClockRate (GHz) 1.582
+pciBusID 0000:01:00.0
+Total memory: 10.91GiB
+Free memory: 9.68GiB
+2017-11-14 01:03:42.260318: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0
+2017-11-14 01:03:42.260320: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y
+2017-11-14 01:03:42.260328: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0)
+2017-11-14 01:03:42.311638: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0)
+2017-11-14 01:03:42.312234: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0)
+Default GPU Device: /gpu:0
+Tests Passed
+Tests Passed
+2017-11-14 01:03:42.404916: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0)
+Tests Passed
+2017-11-14 01:03:43.137517: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0)
+Tests Passed
+Tests Passed
+2017-11-14 01:03:43.167474: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1080 Ti, pci bus id: 0000:01:00.0)
+[Epoch 1/20] Loss: 0.167446
+[Epoch 2/20] Loss: 0.112798
+[Epoch 3/20] Loss: 0.080155
+[Epoch 4/20] Loss: 0.197735
+[Epoch 5/20] Loss: 0.070813
+[Epoch 6/20] Loss: 0.070858
+[Epoch 7/20] Loss: 0.063056
+[Epoch 8/20] Loss: 0.061850
+[Epoch 9/20] Loss: 0.048847
+[Epoch 10/20] Loss: 0.064492
+[Epoch 11/20] Loss: 0.018295
+[Epoch 12/20] Loss: 0.047145
+[Epoch 13/20] Loss: 0.066703
+[Epoch 14/20] Loss: 0.044239
+[Epoch 15/20] Loss: 0.024097
+[Epoch 16/20] Loss: 0.017115
+[Epoch 17/20] Loss: 0.024624
+[Epoch 18/20] Loss: 0.037602
+[Epoch 19/20] Loss: 0.018924
+[Epoch 20/20] Loss: 0.010270
+Training Finished. Saving test images to: ./runs/1510640069.0526578
+
+Process finished with exit code 0
